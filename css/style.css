@@ -1,0 +1,595 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Konkhmer+Sleokchher&display=swap');import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Konkhmer+Sleokchher&display=swap');
+
+
+body{
+
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Konkhmer Sleokchher', cursive;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* _____HEADER________________ */
+
+label
+{
+    display: none;
+}
+ 
+label, #toggle
+{
+    display: none;
+}
+ 
+header{
+
+    height: 200px;
+    display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+      
+
+}
+
+
+header h1:first-letter{
+    color: red;}
+
+.logo{
+
+
+height: 50px;
+width: 200px;
+   
+}
+
+
+
+ a {
+
+    text-decoration: none;
+
+}
+
+.nav li {
+
+    
+display: inline-block;
+padding: 30px;
+
+}
+ 
+
+.nav li a:hover {
+
+    background-color: greenyellow;
+    color: aliceblue;
+text-decoration: underline;
+}
+
+
+
+    /* _______part1_____________ */
+
+
+
+    .part1{
+
+       max-width:  80%;
+       max-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+     
+        margin-top:4%;
+        margin-left: 10%;
+      
+        
+
+    }
+
+ .mariés
+    {
+
+
+max-width: 100%;
+min-height: 10vh;
+
+    }
+
+
+
+
+    .p1{
+        
+        
+max-width: 100%;
+padding: 5%;
+
+        
+        background-color: rgb(242, 216, 169);
+        text-align: center;
+      
+    }
+/* 
+    ______part2____________ */
+
+
+
+.part2{
+
+    
+width: 60%;
+text-align: center;
+
+margin-top:4%;
+margin-left: 20%;
+}
+
+.read{
+
+margin-top: 30%;
+color: gray;
+text-decoration: underline;
+
+
+
+
+}
+
+.part2 p{
+
+    text-align: justify;
+}
+
+
+.titlep1{
+
+    font-size: large;
+}
+
+/* ________les partenaire________________ */
+
+.partenaire li{
+    list-style: none;
+}
+.partenaire {
+max-width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ margin: 5%;
+flex-wrap: wrap;
+}
+
+.KT{
+
+    color: gray;
+
+    font-size: 1.2em;
+    font-weight: lighter;
+
+
+   
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Konkhmer Sleokchher', cursive;  
+}
+
+.CHRISTIAN{
+
+    
+   display: flex;
+   flex-direction: column;
+text-align: center;
+
+
+
+}
+
+.oth{
+
+    font-size: 1.5em;
+    font-weight: 500;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.studio{
+    font-size: 0.5em;
+    font-weight: 200;
+
+
+}
+.JOHN{
+
+
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.ALEX{
+    font-size: 1em;
+    font-weight: 600;
+
+
+}
+
+.JOSE{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.photographer{
+
+    font-size: 0.5em;
+    font-weight: 200;
+}
+
+
+/* ________4eme partie_______________ */
+
+
+
+.part4{
+
+   
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+ 
+    margin-top:4%;
+    margin-left: 10%;
+
+}
+
+
+.lesmariés{
+
+
+    max-width: 100%;
+    
+
+
+}
+
+
+.p4{
+
+    max-width: 100%;
+    background-color: rgb(123, 197, 205);
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;;
+}
+
+
+/* _________5eme partie_____________ */
+
+
+.part5{
+
+    
+max-width: 100%;
+
+text-align: center;
+
+margin-top:4%;
+margin-left: 10%;
+    
+    }
+
+    .p5{
+   
+text-align: justify;
+
+margin-right: 5%;
+
+    }
+    
+
+    /* ______6eme partie_________ */
+
+    
+.part6{
+
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+ 
+    margin-top:4%;
+    margin-left: 10%;
+
+}
+
+
+.lesamoureux{
+
+
+    max-width: 100%;
+    
+
+
+}
+
+
+.p6{
+
+    max-width: 100%;
+    background-color: rgb(122, 135, 136);
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;;
+}
+
+
+    
+
+    /* ______8eme partie_________ */
+
+    
+.part8{
+
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+ 
+    margin-top:4%;
+    margin-left: 10%;
+}
+
+
+
+.merrykt
+{
+
+
+    max-width: 100%;
+
+
+}
+
+
+.merry{
+
+   max-width: 100%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;;
+}
+.part8{
+
+    text-align: justify;
+}
+/* _____________partie9______________ */
+
+
+   
+.part9{
+
+    
+max-width: 80%;
+display: grid;
+grid-template-columns: 1fr 1fr ;
+
+margin-top:4%;
+margin-left: 10%;
+}
+
+
+.robeblanche{
+
+
+    max-width: 100%;
+
+
+    
+
+
+}
+
+
+.p9{
+
+    
+    max-width: 100%;
+    text-align: center;
+  
+    background-color: rgb(242, 216, 169);
+}
+
+/* 
+___________parie10_______________ */
+
+
+.part10{
+
+    min-width: 80%;
+    text-align: center;
+ 
+    margin-top:4%;
+    margin-left: 10%;
+    
+    }
+
+    /* __________part11__________ */
+
+
+
+      
+
+
+
+.part11{
+
+    
+min-height: 600px;
+min-width:80% ;
+margin: 10%;
+background-image: url(../images/img\ \(5\).jpeg);
+background-size: cover;
+position: relative;
+
+   
+}
+.p11{
+
+    max-width: 200px;
+    max-height: 200px;
+    position: absolute;
+    right: 30px;
+    font-size: 1.5rem;
+}
+
+/* ____________footer______________________ */
+
+
+footer{
+
+    margin-top: 100px;
+    height: 300px;
+    width: auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.portefeuilles{
+
+
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.liens{
+    display: flex;
+    flex-direction: column;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+
+}
+footer img{
+
+    height: 20px;
+    width: 20px;
+}
+footer li{
+    list-style: none;
+}
+
+
+
+
+/* _________RESPONSIVE_______________
+
+
+
+     */
+
+     
+
+
+@media all and (max-width: 833px)
+{
+    nav
+    {
+        min-height: 40px;
+        z-index:1;
+        position: absolute;
+        right: 0;
+    }
+ header{
+    position: relative;
+    
+ }
+
+ .logo{
+    position: absolute;
+    left: 10%;
+ }
+     nav .menu 
+    {
+        display: none;
+    } 
+    nav .menu 
+    {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(245, 243, 241);
+        height: 220px;  
+   
+      
+    }
+ 
+    nav .menu a {
+        width: 50%;
+    }
+
+    
+    label 
+    {
+        width: 30px;
+    
+        display: flex;
+       justify-content: center; 
+       
+        margin: 0 auto;
+        font-size: 40px;
+        color: rgb(26, 25, 25);
+        cursor: pointer;
+    }
+
+    #toggle:checked + .menu {
+        display: flex;
+        position: absolute;
+        right: 0;
+        
+    }
+
+    .part1,.part2,.part3,.part4,.part5,.part6,.part7,.part8,.part9{
+
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: center;
+        align-items: center; 
+        
+        
+        
+    }
+
+    footer{
+
+max-height: 100vh;
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer li{
+
+        list-style: none;
+    }
+    
+
+}
+
